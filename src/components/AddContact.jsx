@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Button, Checkbox, Form } from "semantic-ui-react";
+import { Button, Form } from "semantic-ui-react";
 
 class AddContact extends Component {
   state = {
@@ -14,6 +14,7 @@ class AddContact extends Component {
     }
     this.props.addContactHandler(this.state);
     this.setState({ name: "", email: "" });
+    this.props.history.push("/");
   };
   render() {
     return (

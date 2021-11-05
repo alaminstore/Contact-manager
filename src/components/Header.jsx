@@ -1,14 +1,16 @@
 import React from "react";
-import { Container, Divider } from "semantic-ui-react";
+import { Container, Menu } from "semantic-ui-react";
 const Header = () => {
   return (
-    <div className="ui menu">
-      <div className="ui container p-4">
-        <Container textAlign="center">
-          <h2>Contact Manager</h2>
-        </Container>
-      </div>
-    </div>
+    <>
+      <Menu className="center header  green">
+        <div className="ui   mt-1 mb-1">
+          <Container textAlign="center">
+            <h2>Contact Manager</h2>
+          </Container>
+        </div>
+      </Menu>
+    </>
   );
 };
 
