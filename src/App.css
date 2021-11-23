@@ -28,3 +28,6 @@ i.icon {
 .right {
   float: right;
 }
+.ui.input {
+  width: 100%;
+}
